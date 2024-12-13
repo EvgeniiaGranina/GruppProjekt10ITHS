@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "country", schema = "demo")
 public class Country {
-    @Id
+     @Id
     @Column(name = "country_code", nullable = false)
     private String countryCode;
 
